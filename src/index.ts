@@ -1,7 +1,7 @@
 import {MatchReader} from "./MatchReader";
 import {Summary} from './Summary';
 
-MatchReader.fromCsv('football.csv')
+const matchReader = MatchReader.fromCsv('football.csv')
 
 // const summary = new Summary(new WinsAnalysis('Man United'), new ConsoleReport());
 const summary = Summary.winsAnalysisWithHtmlReport('Man United');
