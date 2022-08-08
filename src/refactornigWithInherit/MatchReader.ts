@@ -1,4 +1,4 @@
-import {CsvFileReaderRefactoringWithGeneric} from "../refactornigWithGeneric/CsvFileReader-refactoringWithGeneric";
+import {CsvFileReaderRefactoringWithGeneric} from ".//CsvFileReader-refactoringWithGeneric";
 import {dateStingToDate} from "../util";
 import {MatchResult} from "../MatchResult";
 

@@ -1,8 +1,4 @@
 import fs from "fs";
-import {dateStingToDate} from './util';
-import {MatchResult} from "./MatchResult";
-
-
 
 export class CsvFileReader {
     data: string[][] = [];
@@ -17,8 +13,5 @@ export class CsvFileReader {
             .map((row: string): string[] => {
                 return row.split(',')
             });
-
     }
-
-
 }
