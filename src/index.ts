@@ -7,3 +7,4 @@ const matchReader = MatchReader.fromCsv('football.csv')
 const summary = Summary.winsAnalysisWithHtmlReport('Man United');
 summary.buildAndPrintReport(matchReader.matches);
 
+//тест ветки
